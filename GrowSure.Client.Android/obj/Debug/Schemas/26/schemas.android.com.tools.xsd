@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:annotation>
+    <xs:documentation>v26</xs:documentation>
+    <xs:documentation>6/5/2018 1:24:07 AM</xs:documentation>
+  </xs:annotation>
+  <xs:attribute name="layout">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/activity_category_selection" />
+            <xs:enumeration value="@layout/activity_sign_in" />
+            <xs:enumeration value="@layout/activity_tasks" />
+            <xs:enumeration value="@layout/category_edit_text" />
+            <xs:enumeration value="@layout/category_fill_blank_with_surroundings" />
+            <xs:enumeration value="@layout/category_layout_picker" />
+            <xs:enumeration value="@layout/category_radio_group_true_false" />
+            <xs:enumeration value="@layout/fab_done" />
+            <xs:enumeration value="@layout/fragment_categories" />
+            <xs:enumeration value="@layout/fragment_sign_in" />
+            <xs:enumeration value="@layout/fragment_tasks" />
+            <xs:enumeration value="@layout/item_answer" />
+            <xs:enumeration value="@layout/item_answer_start" />
+            <xs:enumeration value="@layout/item_avatar" />
+            <xs:enumeration value="@layout/item_category" />
+            <xs:enumeration value="@layout/item_scorecard" />
+            <xs:enumeration value="@layout/notification_action" />
+            <xs:enumeration value="@layout/notification_action_tombstone" />
+            <xs:enumeration value="@layout/notification_media_action" />
+            <xs:enumeration value="@layout/notification_media_cancel_action" />
+            <xs:enumeration value="@layout/notification_template_big_media" />
+            <xs:enumeration value="@layout/notification_template_big_media_custom" />
+            <xs:enumeration value="@layout/notification_template_big_media_narrow" />
+            <xs:enumeration value="@layout/notification_template_big_media_narrow_custom" />
+            <xs:enumeration value="@layout/notification_template_custom_big" />
+            <xs:enumeration value="@layout/notification_template_icon_group" />
+            <xs:enumeration value="@layout/notification_template_lines_media" />
+            <xs:enumeration value="@layout/notification_template_media" />
+            <xs:enumeration value="@layout/notification_template_media_custom" />
+            <xs:enumeration value="@layout/notification_template_part_chronometer" />
+            <xs:enumeration value="@layout/notification_template_part_time" />
+            <xs:enumeration value="@layout/question" />
+            <xs:enumeration value="@layout/sign_in_avatars" />
+            <xs:enumeration value="@layout/sign_in_username" />
+            <xs:enumeration value="@layout/task_item" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listfooter">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/activity_category_selection" />
+            <xs:enumeration value="@layout/activity_sign_in" />
+            <xs:enumeration value="@layout/activity_tasks" />
+            <xs:enumeration value="@layout/category_edit_text" />
+            <xs:enumeration value="@layout/category_fill_blank_with_surroundings" />
+            <xs:enumeration value="@layout/category_layout_picker" />
+            <xs:enumeration value="@layout/category_radio_group_true_false" />
+            <xs:enumeration value="@layout/fab_done" />
+            <xs:enumeration value="@layout/fragment_categories" />
+            <xs:enumeration value="@layout/fragment_sign_in" />
+            <xs:enumeration value="@layout/fragment_tasks" />
+            <xs:enumeration value="@layout/item_answer" />
+            <xs:enumeration value="@layout/item_answer_start" />
+            <xs:enumeration value="@layout/item_avatar" />
+            <xs:enumeration value="@layout/item_category" />
+            <xs:enumeration value="@layout/item_scorecard" />
+            <xs:enumeration value="@layout/notification_action" />
+            <xs:enumeration value="@layout/notification_action_tombstone" />
+            <xs:enumeration value="@layout/notification_media_action" />
+            <xs:enumeration value="@layout/notification_media_cancel_action" />
+            <xs:enumeration value="@layout/notification_template_big_media" />
+            <xs:enumeration value="@layout/notification_template_big_media_custom" />
+            <xs:enumeration value="@layout/notification_template_big_media_narrow" />
+            <xs:enumeration value="@layout/notification_template_big_media_narrow_custom" />
+            <xs:enumeration value="@layout/notification_template_custom_big" />
+            <xs:enumeration value="@layout/notification_template_icon_group" />
+            <xs:enumeration value="@layout/notification_template_lines_media" />
+            <xs:enumeration value="@layout/notification_template_media" />
+            <xs:enumeration value="@layout/notification_template_media_custom" />
+            <xs:enumeration value="@layout/notification_template_part_chronometer" />
+            <xs:enumeration value="@layout/notification_template_part_time" />
+            <xs:enumeration value="@layout/question" />
+            <xs:enumeration value="@layout/sign_in_avatars" />
+            <xs:enumeration value="@layout/sign_in_username" />
+            <xs:enumeration value="@layout/task_item" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listheader">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/activity_category_selection" />
+            <xs:enumeration value="@layout/activity_sign_in" />
+            <xs:enumeration value="@layout/activity_tasks" />
+            <xs:enumeration value="@layout/category_edit_text" />
+            <xs:enumeration value="@layout/category_fill_blank_with_surroundings" />
+            <xs:enumeration value="@layout/category_layout_picker" />
+            <xs:enumeration value="@layout/category_radio_group_true_false" />
+            <xs:enumeration value="@layout/fab_done" />
+            <xs:enumeration value="@layout/fragment_categories" />
+            <xs:enumeration value="@layout/fragment_sign_in" />
+            <xs:enumeration value="@layout/fragment_tasks" />
+            <xs:enumeration value="@layout/item_answer" />
+            <xs:enumeration value="@layout/item_answer_start" />
+            <xs:enumeration value="@layout/item_avatar" />
+            <xs:enumeration value="@layout/item_category" />
+            <xs:enumeration value="@layout/item_scorecard" />
+            <xs:enumeration value="@layout/notification_action" />
+            <xs:enumeration value="@layout/notification_action_tombstone" />
+            <xs:enumeration value="@layout/notification_media_action" />
+            <xs:enumeration value="@layout/notification_media_cancel_action" />
+            <xs:enumeration value="@layout/notification_template_big_media" />
+            <xs:enumeration value="@layout/notification_template_big_media_custom" />
+            <xs:enumeration value="@layout/notification_template_big_media_narrow" />
+            <xs:enumeration value="@layout/notification_template_big_media_narrow_custom" />
+            <xs:enumeration value="@layout/notification_template_custom_big" />
+            <xs:enumeration value="@layout/notification_template_icon_group" />
+            <xs:enumeration value="@layout/notification_template_lines_media" />
+            <xs:enumeration value="@layout/notification_template_media" />
+            <xs:enumeration value="@layout/notification_template_media_custom" />
+            <xs:enumeration value="@layout/notification_template_part_chronometer" />
+            <xs:enumeration value="@layout/notification_template_part_time" />
+            <xs:enumeration value="@layout/question" />
+            <xs:enumeration value="@layout/sign_in_avatars" />
+            <xs:enumeration value="@layout/sign_in_username" />
+            <xs:enumeration value="@layout/task_item" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="listitem">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@layout/activity_category_selection" />
+            <xs:enumeration value="@layout/activity_sign_in" />
+            <xs:enumeration value="@layout/activity_tasks" />
+            <xs:enumeration value="@layout/category_edit_text" />
+            <xs:enumeration value="@layout/category_fill_blank_with_surroundings" />
+            <xs:enumeration value="@layout/category_layout_picker" />
+            <xs:enumeration value="@layout/category_radio_group_true_false" />
+            <xs:enumeration value="@layout/fab_done" />
+            <xs:enumeration value="@layout/fragment_categories" />
+            <xs:enumeration value="@layout/fragment_sign_in" />
+            <xs:enumeration value="@layout/fragment_tasks" />
+            <xs:enumeration value="@layout/item_answer" />
+            <xs:enumeration value="@layout/item_answer_start" />
+            <xs:enumeration value="@layout/item_avatar" />
+            <xs:enumeration value="@layout/item_category" />
+            <xs:enumeration value="@layout/item_scorecard" />
+            <xs:enumeration value="@layout/notification_action" />
+            <xs:enumeration value="@layout/notification_action_tombstone" />
+            <xs:enumeration value="@layout/notification_media_action" />
+            <xs:enumeration value="@layout/notification_media_cancel_action" />
+            <xs:enumeration value="@layout/notification_template_big_media" />
+            <xs:enumeration value="@layout/notification_template_big_media_custom" />
+            <xs:enumeration value="@layout/notification_template_big_media_narrow" />
+            <xs:enumeration value="@layout/notification_template_big_media_narrow_custom" />
+            <xs:enumeration value="@layout/notification_template_custom_big" />
+            <xs:enumeration value="@layout/notification_template_icon_group" />
+            <xs:enumeration value="@layout/notification_template_lines_media" />
+            <xs:enumeration value="@layout/notification_template_media" />
+            <xs:enumeration value="@layout/notification_template_media_custom" />
+            <xs:enumeration value="@layout/notification_template_part_chronometer" />
+            <xs:enumeration value="@layout/notification_template_part_time" />
+            <xs:enumeration value="@layout/question" />
+            <xs:enumeration value="@layout/sign_in_avatars" />
+            <xs:enumeration value="@layout/sign_in_username" />
+            <xs:enumeration value="@layout/task_item" />
+            <xs:enumeration value="@android:layout/activity_list_item" />
+            <xs:enumeration value="@android:layout/browser_link_context_header" />
+            <xs:enumeration value="@android:layout/expandable_list_content" />
+            <xs:enumeration value="@android:layout/list_content" />
+            <xs:enumeration value="@android:layout/preference_category" />
+            <xs:enumeration value="@android:layout/select_dialog_item" />
+            <xs:enumeration value="@android:layout/select_dialog_multichoice" />
+            <xs:enumeration value="@android:layout/select_dialog_singlechoice" />
+            <xs:enumeration value="@android:layout/simple_dropdown_item_1line" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_expandable_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_gallery_item" />
+            <xs:enumeration value="@android:layout/simple_list_item_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_1" />
+            <xs:enumeration value="@android:layout/simple_list_item_activated_2" />
+            <xs:enumeration value="@android:layout/simple_list_item_checked" />
+            <xs:enumeration value="@android:layout/simple_list_item_multiple_choice" />
+            <xs:enumeration value="@android:layout/simple_list_item_single_choice" />
+            <xs:enumeration value="@android:layout/simple_selectable_list_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_dropdown_item" />
+            <xs:enumeration value="@android:layout/simple_spinner_item" />
+            <xs:enumeration value="@android:layout/test_list_item" />
+            <xs:enumeration value="@android:layout/two_line_list_item" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="openDrawer">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="end" />
+            <xs:enumeration value="left" />
+            <xs:enumeration value="right" />
+            <xs:enumeration value="start" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="text">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="@string/an_avatar" />
+            <xs:enumeration value="@string/app_name" />
+            <xs:enumeration value="@string/btn_false" />
+            <xs:enumeration value="@string/btn_true" />
+            <xs:enumeration value="@string/category" />
+            <xs:enumeration value="@string/category_of_quizzes" />
+            <xs:enumeration value="@string/choose_avatar" />
+            <xs:enumeration value="@string/due_on" />
+            <xs:enumeration value="@string/first_name" />
+            <xs:enumeration value="@string/groupTickCross" />
+            <xs:enumeration value="@string/last_initial" />
+            <xs:enumeration value="@string/line_1" />
+            <xs:enumeration value="@string/line_2" />
+            <xs:enumeration value="@string/location" />
+            <xs:enumeration value="@string/path_cross_line_1" />
+            <xs:enumeration value="@string/path_cross_line_2" />
+            <xs:enumeration value="@string/path_tick_line_1" />
+            <xs:enumeration value="@string/path_tick_line_2" />
+            <xs:enumeration value="@string/player_display_name" />
+            <xs:enumeration value="@string/sign_in" />
+            <xs:enumeration value="@string/sign_out" />
+            <xs:enumeration value="@string/status_bar_notification_info_overflow" />
+            <xs:enumeration value="@string/task_name" />
+            <xs:enumeration value="@string/task_quantity" />
+            <xs:enumeration value="@string/task_type" />
+            <xs:enumeration value="@string/transition_avatar" />
+            <xs:enumeration value="@string/transition_background" />
+            <xs:enumeration value="@string/transition_toolbar" />
+            <xs:enumeration value="@string/up" />
+            <xs:enumeration value="@string/x_points" />
+            <xs:enumeration value="@android:string/cancel" />
+            <xs:enumeration value="@android:string/copy" />
+            <xs:enumeration value="@android:string/copyUrl" />
+            <xs:enumeration value="@android:string/cut" />
+            <xs:enumeration value="@android:string/defaultMsisdnAlphaTag" />
+            <xs:enumeration value="@android:string/defaultVoiceMailAlphaTag" />
+            <xs:enumeration value="@android:string/dialog_alert_title" />
+            <xs:enumeration value="@android:string/emptyPhoneNumber" />
+            <xs:enumeration value="@android:string/fingerprint_icon_content_description" />
+            <xs:enumeration value="@android:string/httpErrorBadUrl" />
+            <xs:enumeration value="@android:string/httpErrorUnsupportedScheme" />
+            <xs:enumeration value="@android:string/no" />
+            <xs:enumeration value="@android:string/ok" />
+            <xs:enumeration value="@android:string/paste" />
+            <xs:enumeration value="@android:string/search_go" />
+            <xs:enumeration value="@android:string/selectAll" />
+            <xs:enumeration value="@android:string/selectTextMode" />
+            <xs:enumeration value="@android:string/unknownName" />
+            <xs:enumeration value="@android:string/untitled" />
+            <xs:enumeration value="@android:string/VideoView_error_button" />
+            <xs:enumeration value="@android:string/VideoView_error_text_invalid_progressive_playback" />
+            <xs:enumeration value="@android:string/VideoView_error_text_unknown" />
+            <xs:enumeration value="@android:string/VideoView_error_title" />
+            <xs:enumeration value="@android:string/yes" />
+            <xs:enumeration value="?android:attr/candidatesTextStyleSpans" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="visibility">
+    <xs:annotation>
+      <xs:documentation></xs:documentation>
+    </xs:annotation>
+    <xs:simpleType>
+      <xs:union memberTypes="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="gone" />
+            <xs:enumeration value="invisible" />
+            <xs:enumeration value="visible" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:union>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>

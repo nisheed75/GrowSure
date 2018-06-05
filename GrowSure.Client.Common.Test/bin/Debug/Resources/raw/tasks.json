@@ -1,0 +1,123 @@
+﻿[
+  {
+    "Id": "3529a5de-6f9b-41d6-9eab-7e3ce67c95a0",
+    "Type": {
+      "Id": 1,
+      "Name": "Seed"
+    },
+    "TaskName": "Mint",
+    "Assignee": {
+      "FirstName": "Nisheed",
+      "LastName": "Rama",
+      "UserName": "nisheed",
+      "Password": "password",
+      "Avatar": "avatar_1"
+    },
+    "CreateDate": "2018-06-05T07:25:06.0568834Z",
+    "DueOn": "2018-06-05T07:25:06.0568834Z",
+    "AssigneeStatus": "NotAccepted",
+    "Completed": false,
+    "CompletedDate": "0001-01-01T00:00:00",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "Seeding"
+      }
+    ],
+    "Location": "Building 28",
+    "QuantityUnit": "Trays",
+    "Quantity": 5
+  },
+  {
+    "Id": "5dfb7d09-2f83-4bb6-a553-8cc1820f77bb",
+    "Type": {
+      "Id": 1,
+      "Name": "Seed"
+    },
+    "TaskName": "Oregano",
+    "Assignee": null,
+    "CreateDate": "2018-06-05T07:25:06.0578821Z",
+    "DueOn": "2018-06-05T07:25:06.0578821Z",
+    "AssigneeStatus": "NotAccepted",
+    "Completed": false,
+    "CompletedDate": "0001-01-01T00:00:00",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "Seeding"
+      }
+    ],
+    "Location": "Building 28",
+    "QuantityUnit": "Trays",
+    "Quantity": 3
+  },
+  {
+    "Id": "145f1056-16f7-49ae-9b64-2f02934847b3",
+    "Type": {
+      "Id": 1,
+      "Name": "Seed"
+    },
+    "TaskName": "Basil",
+    "Assignee": null,
+    "CreateDate": "2018-06-05T07:25:06.0578821Z",
+    "DueOn": "2018-06-05T07:25:06.0578821Z",
+    "AssigneeStatus": "NotAccepted",
+    "Completed": false,
+    "CompletedDate": "0001-01-01T00:00:00",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "Seeding"
+      }
+    ],
+    "Location": "Building 28",
+    "QuantityUnit": "Trays",
+    "Quantity": 4
+  },
+  {
+    "Id": "516e19e8-7151-4070-836a-a26a227463e8",
+    "Type": {
+      "Id": 1,
+      "Name": "Seed"
+    },
+    "TaskName": "Parsley",
+    "Assignee": null,
+    "CreateDate": "2018-06-05T07:25:06.0578821Z",
+    "DueOn": "2018-06-05T07:25:06.0578821Z",
+    "AssigneeStatus": "NotAccepted",
+    "Completed": false,
+    "CompletedDate": "0001-01-01T00:00:00",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "Seeding"
+      }
+    ],
+    "Location": "Building 28",
+    "QuantityUnit": "Trays",
+    "Quantity": 8
+  },
+  {
+    "Id": "1ad64ecb-e7e7-47ca-af45-a14194cbea71",
+    "Type": {
+      "Id": 1,
+      "Name": "Seed"
+    },
+    "TaskName": "Thyme",
+    "Assignee": null,
+    "CreateDate": "2018-06-05T07:25:06.0578821Z",
+    "DueOn": "2018-06-05T07:25:06.0578821Z",
+    "AssigneeStatus": "NotAccepted",
+    "Completed": false,
+    "CompletedDate": "0001-01-01T00:00:00",
+    "Tags": [
+      {
+        "Id": 1,
+        "Name": "Seeding"
+      }
+    ],
+    "Location": "Building 28",
+    "QuantityUnit": "Trays",
+    "Quantity": 2
+  }
+]

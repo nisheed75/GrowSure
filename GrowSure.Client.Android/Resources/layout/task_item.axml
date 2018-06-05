@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_task_item">
+    <GrowSure.Client.Android.AvatarView
+        android:id="@+id/img_assigned_person"
+        android:layout_width="@dimen/size_avatar_toolbar"
+        android:layout_height="@dimen/size_avatar_toolbar"
+        android:layout_marginEnd="@dimen/spacing_double"
+        android:transitionName="@string/transition_avatar" />
+    <TextView
+        android:text="@string/task_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_assigned_person"
+        android:id="@+id/tv_task_description"
+        android:layout_alignBaseline="@id/img_assigned_person"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+    <TextView
+        android:text="@string/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tv_task_description"
+        android:id="@+id/tv_location"
+        android:layout_alignBaseline="@id/img_assigned_person"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:layout_alignParentEnd="true"
+        android:textSize="16sp" />
+    <TextView
+        android:text="@string/task_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_assigned_person"
+        android:id="@+id/lbl_no_of_trays"
+        android:layout_below="@id/tv_task_description"
+        android:gravity="right"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+    <TextView
+        android:text="@string/task_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl_no_of_trays"
+        android:id="@+id/tv_no_of_trays"
+        android:layout_below="@id/tv_task_description"
+        android:paddingEnd="10dp"
+        android:gravity="end"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="5dp"
+        android:textSize="14sp" />
+    <TextView
+        android:text="@string/due_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/img_assigned_person"
+        android:id="@+id/lbl_due_date"
+        android:layout_below="@id/lbl_no_of_trays"
+        android:gravity="end"
+        android:paddingTop="5dp"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+    <TextView
+        android:text="@string/due_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/lbl_due_date"
+        android:id="@+id/tv_due_date"
+        android:layout_below="@+id/tv_no_of_trays"
+        android:paddingEnd="10dp"
+        android:gravity="end"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="5dp"
+        android:textSize="14sp" />
+</RelativeLayout>

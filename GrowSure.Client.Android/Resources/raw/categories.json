@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Tasks",
+    "id": "tasks",
+    "theme": "green"
+  },
+  {
+    "name": "Assets",
+    "id": "assets",
+    "theme": "yellow"
+  },
+  {
+    "name": "Orders",
+    "id": "orders",
+    "theme": "blue"
+  },
+  {
+    "name": "Inventory",
+    "id": "inventory",
+    "theme": "red"
+  },
+  {
+    "name": "Settings",
+    "id": "settings",
+    "theme": "purple"
+  }
+ 
+]

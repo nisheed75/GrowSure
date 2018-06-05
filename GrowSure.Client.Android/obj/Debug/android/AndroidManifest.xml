@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.busyboxes.growsure" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="22" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@drawable/icon" android:label="@string/app_name" android:supportsRtl="false" android:theme="@style/GrowSure.Client.Android" android:name="android.app.Application" android:debuggable="true">
+    <activity android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="md5043fea7e4b867200cb3e6e3af3a171c6.TaskActivity" />
+    <activity android:theme="@style/GrowSure.Client.Android.CategorySelectionActivity" android:name="md5043fea7e4b867200cb3e6e3af3a171c6.CategorySelectionActivity" />
+    <activity android:windowSoftInputMode="stateUnspecified|adjustPan" android:name="md5043fea7e4b867200cb3e6e3af3a171c6.SignInActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.busyboxes.growsure.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.busyboxes.growsure" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

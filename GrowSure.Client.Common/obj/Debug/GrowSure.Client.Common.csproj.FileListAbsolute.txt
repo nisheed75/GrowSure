@@ -1,0 +1,10 @@
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\bin\Debug\GrowSure.Client.Common.dll
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\bin\Debug\GrowSure.Client.Common.pdb
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\obj\Debug\GrowSure.Client.Common.Properties.Resources.resources
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\obj\Debug\GrowSure.Client.Common.csproj.GenerateResource.cache
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\obj\Debug\GrowSure.Client.Common.csproj.CoreCompileInputs.cache
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\obj\Debug\GrowSure.Client.Common.csproj.CopyComplete
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\obj\Debug\GrowSure.Client.Common.dll
+C:\Users\nishe\source\repos\GrowSure.Client\GrowSure.Client.Common\obj\Debug\GrowSure.Client.Common.pdb
